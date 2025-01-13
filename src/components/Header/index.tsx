@@ -16,7 +16,7 @@ const Header = () => {
             <div className="flex items-center space-x-4">
                 <Link href="/" className="text-2xl font-bold">AffiliateShop</Link>
                 <nav className={`space-x-6 md:flex ${isMobileMenuOpen ? 'block' : 'hidden'} md:block`}>
-                    <Link href="/products" className="hover:text-yellow-300">Produtos</Link>
+                    <Link href="/" className="hover:text-yellow-300">Produtos</Link>
                     <Link href="/reviews" className="hover:text-yellow-300">Resenhas</Link>
                     <Link href="/offers" className="hover:text-yellow-300">Ofertas</Link>
                     <Link href="/contact" className="hover:text-yellow-300">Contato</Link>
